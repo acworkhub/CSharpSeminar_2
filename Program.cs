@@ -80,24 +80,24 @@
 //         System.Console.WriteLine($"Число не кратно, остаток  от 7=> {a % b}, остаток от 23=> {a % c}");
 //     }
 
-int a = 42;
+// int a = 42;
 
-if (a % 7 == 0)
-{
-    if (a % 23 == 0)
-    {
-        System.Console.WriteLine("Yes");
+// if (a % 7 == 0)
+// {
+//     if (a % 23 == 0)
+//     {
+//         System.Console.WriteLine("Yes");
 
 
-    }
+//     }
 
-}
-else 
-    {
+// }
+// else 
+//     {
 
-        System.Console.WriteLine("No");
+//         System.Console.WriteLine("No");
 
-    }
+//     }
 
 // System.Console.WriteLine("Введите возводимое в квадрат число");
 // int a = Convert.ToInt32(Console.ReadLine());
