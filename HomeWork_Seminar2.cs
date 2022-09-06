@@ -5,11 +5,11 @@
 // 918 -> 1
 
 // int n = new Random().Next(100,1000);
-// System.Console.WriteLine($"Сгенерировано случайное число=>{n}");
+// System.Console.WriteLine($"Сгенерировано случайное число => {n}");
 
 // int resault  = n/10 - (n/100*10) ;
 
-// System.Console.WriteLine($" Вторая цифра числа {n}=> {resault}");
+// System.Console.WriteLine($"Вторая цифра числа {n} => {resault}");
 
 
 
@@ -55,3 +55,51 @@
 // 6 -> да
 // 7 -> да
 // 1 -> нет
+
+
+// Решение через массив 
+
+// System.Console.WriteLine("Введите число дня недели");
+
+// int numbday = Convert.ToInt32(Console.ReadLine());
+
+// string[] nameday = { "Понедельник","Вторник","Среда","Четверг","Пятница","Суббота","Воскресенье"};
+
+// if ( numbday>=1 & numbday<=7 )
+//     {
+//         if (numbday>=1 & numbday<=5)
+//         {
+//             System.Console.WriteLine($"{numbday} день недели это - {nameday[numbday-1]} => Рабочий день");   
+//         }
+//         else
+//         {
+//             System.Console.WriteLine($"{numbday} день недели это - {nameday[numbday-1]} => Ура! Выходной!");
+//         }
+//     }
+
+// else
+//         {
+//             System.Console.WriteLine("Введите корректное число");
+//         }
+
+// Решение через if-else
+
+// System.Console.WriteLine("Введите число дня недели");
+
+// int numbday = Convert.ToInt32(Console.ReadLine());
+
+// if (numbday>=1 & numbday<=7)
+//     {
+//         if (numbday>=1 & numbday<=5)
+//         {
+//             System.Console.WriteLine($"{numbday} => Рабочий день недели");
+//         }
+//         else
+//         {
+//          System.Console.WriteLine($"{numbday} => Выходной день");   
+//         }
+//     }
+// else
+//     {
+//      System.Console.WriteLine("Введите корректное число");   
+//     }
